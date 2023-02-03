@@ -8,7 +8,7 @@ import jakarta.persistence.*;
 public class Recipe {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    
+
     private Long id;
 
     @Column(name = "name")
